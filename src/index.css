@@ -1,0 +1,209 @@
+body {
+  background-color:lightgoldenrodyello;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+  padding: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.card {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 13;
+  padding-bottom: 20px;
+
+}
+
+.card-img1 {
+  width: 100%;
+}
+
+
+.footer {
+  column-count: 2;
+  width: 100%;
+  background-color: #004d33;
+  color: white;
+  height: 300px;
+
+}
+
+.foot-link {
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: chocolate;
+  text-decoration: dotted;
+}
+
+.navlinks{
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  text-align: right;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color:#004d33;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 100px;
+  opacity: 95%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.navbar a:hover{
+  background-color: black;
+}
+
+.icon01 {
+  width: 70px;
+  margin-left: 950px;
+  margin-top: 10px;
+}
+
+div video {
+max-width: 100%;
+position: static;
+}
+
+.h1text {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darkgreen;
+  text-decoration: overline;
+  font-size: 40px;
+}
+
+.para {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: center;
+  color: darkgrey;
+}
+
+.watchdetail{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about {
+  background-color: white;
+}
+
+.span-watchdetail {
+  margin-left: 60px;
+  font-size: 20px;
+}
+
+.btninquiry {
+  position: relative;
+  height: 100px;
+  background-color: #004d33;
+  margin-bottom: -20px;
+}
+
+.btninquiry:hover {
+  background-color: black;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 30px;
+  color: #f2f2f2;
+}
+
+.btn-hover {
+  position: relative;
+  bottom: 50px;
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  height: 20px;
+}
+
+.pagination{
+  margin-top: 10px;
+  margin-left: 700px;
+}
+
+
+.fcontact {
+  font-size: 21px;
+  margin-left: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fcontact a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.lcontact {
+  font-size: 21px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ban2 {
+  height: 500px;
+  width: 100%;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline;
+  font-size: 25px;
+  width: 100%;
+
+}
+
+.Apara {
+  font-size: 40px;
+}
